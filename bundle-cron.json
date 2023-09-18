@@ -1,0 +1,15 @@
+{
+    "bundles": {
+        "bundle-cron": {
+            "name": "bundle-cron",
+            "bundle-file": "bundle-cron",
+            "prefixes": {
+                "cron": {
+                    "producer": {
+                        "class": "esb.bundles.core.cron.CronProducer"
+                    }
+                }
+            }
+        }
+    }
+}
